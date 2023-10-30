@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     padding: 20px;
     column-gap:30px;
+    row-gap: 30px;
 }
 
 .td_cir{
