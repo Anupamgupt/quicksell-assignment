@@ -47,15 +47,14 @@ function Status({checkSort}) {
           newStatus[key] = [];
         }
       }
-      setStatus(newStatus);
-      // console.log(newStatus)
+      setStatus(newStatus); 
     }
   }, [data,checkSort]);
 
   return (
     <div className="status">
       {Object.keys(status).map((key) => (
-        <div className="main-status">
+        <div className="main-status" key={key}>
           <div className="main-status-head">
             <div className="stat-head-content">
               <div className="icon-status">

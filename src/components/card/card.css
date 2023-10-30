@@ -87,3 +87,9 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 500px) {
+   .card{
+    width: 100%;
+   }
+}

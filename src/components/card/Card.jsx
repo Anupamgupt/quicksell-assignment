@@ -14,16 +14,16 @@ function Card({cam,title,status,user}) {
     <div className='card'>
         <div className='card-head'>
             <p>{cam}</p>
-            {user && ( <div className='circle'>
+            {user && ( <span className='circle'>
              {user==="usr-1" && <img src={user1} className='user-card'/>}
              {user==="usr-2" && <img src={user2} className='user-card'/>}
              {user==="usr-3" && <img src={user3} className='user-card'/>}
              {user==="usr-4" && <img src={user4} className='user-card'/>}
              {user==="usr-5" && <img src={user5} className='user-card'/>}
-              <div className='cir' style={{
+              <span className='cir' style={{
                 backgroundColor:(user==="usr-2" || user==="usr-3"|| user==="usr-4" || user==="usr-5")?"green":"gray"
-              }}></div>
-            </div>)}
+              }}></span>
+            </span>)}
            
         </div>
        <div className='title'>
@@ -35,7 +35,7 @@ function Card({cam,title,status,user}) {
         <div className='feature'>
             <div className='dots'><TbDots/></div>
             <p className='feature-para'>
-              <div className='cc'></div>
+              <span className='cc'></span>
               feature Request
             </p>
         </div>

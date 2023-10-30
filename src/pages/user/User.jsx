@@ -44,13 +44,12 @@ function User({checkSort}) {
         }
         setUser(userList)
         dispatch(setUserBased(userList))
-        console.log(userList)
     },[data,checkSort,dispatch]);
 
   return (
     <div className="status">
-      {Object.keys(user).map((key) => (
-        <div className="main-status">
+      {Object.keys(user).map((key,ind) => (
+        <div className="main-status"  key={key}>
           <div className="main-status-head">
           <div className="stat-head-content">
               <div className="icon-user">
