@@ -25,6 +25,7 @@ function Ui() {
     }
     const handlesort=(e)=>{
         setCheckSort(e.target.value);
+        setDisplay(false);
     }
     const status=useSelector(state=>state.status)
   return (
