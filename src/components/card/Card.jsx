@@ -13,7 +13,7 @@ function Card({cam,title,status,user}) {
   return (
     <div className='card'>
         <div className='card-head'>
-            <p>{cam}</p>
+            <p className='cam-text'>{cam}</p>
             {user && ( <span className='circle'>
              {user==="usr-1" && <img src={user1} className='user-card'/>}
              {user==="usr-2" && <img src={user2} className='user-card'/>}
@@ -30,7 +30,7 @@ function Card({cam,title,status,user}) {
           {status==="In progress" &&<img className="cir-stat" src={in_progress}></img> }
           {status==="Backlog" &&<img className="cir-stat" src={dashed_circle}></img> }
           {status==="Todo" &&<div className='cir_todo'></div> }
-        <p>{title}</p>
+        <p className='card-title'>{title}</p>
       </div> 
         <div className='feature'>
             <div className='dots'><TbDots/></div>

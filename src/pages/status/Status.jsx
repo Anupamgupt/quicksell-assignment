@@ -65,7 +65,7 @@ function Status({checkSort}) {
               <p>{key}</p>
               <div>{status[key].length}</div>
             </div>
-            <div>
+            <div className="ic">
               <BsPlus/>
               <TbDots/>
             </div>

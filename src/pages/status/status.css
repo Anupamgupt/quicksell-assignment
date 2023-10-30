@@ -5,7 +5,6 @@
     flex-wrap: wrap;
     padding: 20px;
     column-gap:30px;
-    row-gap: 30px;
 }
 
 .td_cir{
@@ -17,11 +16,18 @@
 .main-status{
     width: 300px;
 }
+.ic{
+    margin-bottom: -10px;
+
+}
+.ic>*{
+    font-size: 20px;
+}
 .icon-status{
     width: 15px;
     height: 15px;
-    background-color: white;
     border-radius: 50%;
+    margin-top: -5px ;
 }
 .main-status-head{
     margin-bottom: 30px;
