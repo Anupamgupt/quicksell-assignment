@@ -9,7 +9,6 @@ const store = configureStore({
         status:statusReducer,
         data:dataReducer,
         userBased:userReducer,
-        // you can add more reducer in this
     }
 })
 

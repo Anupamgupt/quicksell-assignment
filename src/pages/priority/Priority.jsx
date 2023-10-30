@@ -45,7 +45,6 @@ function Priority({ checkSort }) {
       }
 
       setPriority(newPriority);
-      // console.log(newPriority);
     }
   }, [data]);
   return (

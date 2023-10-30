@@ -11,8 +11,6 @@ import cancel from "../../assets/images/cancel.png"
 
 function Status({checkSort}) {
   const data = useSelector((state) => state.data.data);
-  // 
-
   const uniqueStatuses = {
     Cancelled: null,
     Done: null,

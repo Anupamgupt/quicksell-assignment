@@ -5,7 +5,6 @@ import './ui.css'
 import User from './user/User';
 import Status from './status/Status';
 import Priority from './priority/Priority';
-import {BsFilterLeft} from 'react-icons/bs'
 import {RiArrowDropDownLine} from 'react-icons/ri'
 import { setStatus } from '../store/StatusSlice';
 import display_filter from "../assets/images/display_filter.png"
@@ -25,7 +24,6 @@ function Ui() {
         setDisplay(false);
     }
     const handlesort=(e)=>{
-        // dispatch(setStatus(e.target.value));
         setCheckSort(e.target.value);
     }
     const status=useSelector(state=>state.status)
