@@ -1,0 +1,69 @@
+.display{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+
+.display-btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    column-gap: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+   
+
+}
+
+.display-btn>*{
+    font-size: 18px;
+}
+
+.main-display{
+    z-index: 100;
+    margin-left: 20px;
+    width: 280px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(238, 238, 238);
+    position: absolute;
+    top:11%;
+    padding: 20px;
+    left: -10px;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    border-radius: 10px;
+}
+
+.stats_style{
+    background-color: rgb(244, 244, 248);
+    border: 1px solid rgb(214, 212, 212);
+    padding: 5px;
+    width: 40%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.stats_style:focus{
+    outline: none;
+}
+
+.filter{
+    width: 10px;
+    height: 10px;
+}
+.drop_style{
+    /* background-color: red; */
+   font-size: 20px;
+}
+.dis{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+}
+.dis2{
+    margin-top: 20px;
+}

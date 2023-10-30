@@ -1,0 +1,47 @@
+.status{
+    min-height: 100svh;
+    background-color: rgb(235, 235, 240);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    column-gap:30px;
+    row-gap: 30px;
+}
+
+.td_cir{
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgb(212, 210, 210);
+    border-radius: 50%;
+}
+.main-status{
+    width: 300px;
+}
+.icon-status{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    /* color: white; */
+}
+.main-status-head{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.status-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.stat-head-content{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.stat_icon_desc{
+    width: 100%;
+    height: 100%;
+}
